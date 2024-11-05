@@ -1,0 +1,13 @@
+{
+  "SIGN_UP_UYE_OLMADAN_KESFET_BUTTON": {
+    "value": "//android.widget.ImageView[@content-desc=\"Üye Olmadan Keşfet\"]",
+    "type": "xpath"
+  },
+  "SIGN_UP_DEVAM_ET_BUTTON": {
+    "value": "//android.widget.ImageView[@content-desc=\"Üye Olmadan Keşfet\"]",
+    "type": "xpath"
+  }
+}
+
+
+

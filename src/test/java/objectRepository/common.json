@@ -1,0 +1,13 @@
+{
+  "TAMAM_BUTTON": {
+    "value": "Tamam",
+    "type": "AccessibilityId"
+  },
+  "DEVAM_ET_BUTTON": {
+    "value": "Devam Et",
+    "type": "AccessibilityId"
+  }
+}
+
+
+

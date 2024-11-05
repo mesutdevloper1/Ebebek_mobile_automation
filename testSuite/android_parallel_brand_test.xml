@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebebek Android Brand Test Suite" verbose="1" parallel="tests"
+       thread-count="3">
+    <listeners>
+        <listener class-name="com.Ebebek.listener.ExecutionListener"/>
+        <listener class-name="com.Ebebek.listener.TestListener"/>
+        <listener class-name="com.Ebebek.listener.AnnotationTransformer"/>
+    </listeners>
+    <test name="Samsung A22 - v11">
+        <parameter name="deviceName" value="Galaxy A22"/>
+        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformName" value="android"/>
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+    <test name="Redmi Note 9 - v11">
+        <parameter name="deviceName" value="Redmi Note 9"/>
+        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformName" value="android"/>
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+</suite>
+

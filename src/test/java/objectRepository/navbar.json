@@ -1,0 +1,25 @@
+{
+  "NAVBAR_HOME": {
+    "value": "Home",
+    "type": "AccessibilityId"
+  },
+  "NAVBAR_WALLET": {
+    "value": "(//android.widget.ImageView[@content-desc='Wallet'])[2]",
+    "type": "xpath"
+  },
+  "NAVBAR_SCAN": {
+    "value": "(//android.widget.ImageView[@content-desc='Wallet'])[1]",
+    "type": "xpath"
+  },
+  "NAVBAR_TRANSACTIONS": {
+    "value": "Transactions",
+    "type": "AccessibilityId"
+  },
+  "NAVBAR_ACCOUNT": {
+    "value": "(//android.widget.ImageView[@content-desc='Wallet'])[3]",
+    "type": "xpath"
+  }
+}
+
+
+

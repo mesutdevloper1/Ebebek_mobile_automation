@@ -1,0 +1,87 @@
+{
+  "HOME_AC_FILTER": {
+    "value": "AC",
+    "type": "id"
+  },
+
+  "Categories_Button" : {
+    "vale" : "//android.widget.TextView[@resource-id=\"com.solidict.ebebek:id/navigation_bar_item_large_label_view\"]",
+    "type": "xpath"
+  },
+
+
+  "Clothing_&_textil_Categories":
+  {
+    "value": "//android.widget.TextView[@resource-id=\"com.solidict.ebebek:id/tv_title\" and @text=\"Giyim & Tekstil\"]",
+    "type" : "xpath"
+  },
+  "Clothing_&_textil_Filter_button":
+  {
+    "value": "//android.widget.TextView[@text=\"Filtrele\"]",
+    "type" : "xpath"
+  },
+
+   "Clothing_&_textil_Filter_price_Avarage_button":
+  {
+    "value": "//android.widget.TextView[@resource-id=\"com.solidict.ebebek:id/tvFilterName\" and @text=\"Fiyat Aralığı\"]",
+    "type" : "xpath"
+  },
+  "Clothing_&_textil_Filter_price_Avarage_50-100":
+  {
+    "value": "//android.widget.TextView[@resource-id=\"com.solidict.ebebek:id/tvFilterName\" and @text=\"50 - 100 TL (431)\"]",
+    "type" : "xpath"
+  },
+  "apply_button":
+  {
+    "value": "com.solidict.ebebek:id/btApplyFilter",
+    "type" : "id"
+  },
+
+  "see_product_button":
+  {
+    "value": "com.solidict.ebebek:id/btApplyFilter",
+    "type" : "id"
+  },
+  "Sorting_button":
+  {
+    "value": "com.solidict.ebebek:id/linearLayout_ProductSorting",
+    "type" : "id"
+  },
+  "Sorting_most_reviewed_button":
+  {
+    "value": "//android.widget.TextView[@resource-id=\"com.solidict.ebebek:id/tvFilterName\" and @text=\"Çok Değerlendirilenler\"]",
+    "type" : "xpath"
+  },
+
+  "firt_product_addBasket":
+  {
+    "value": "(//android.widget.Button[@resource-id=\"com.solidict.ebebek:id/btAddToCart_\"])[1]",
+    "type" : "xpath"
+  },
+
+  "firt_product_addBasket_ok":
+  {
+    "value": "com.solidict.ebebek:id/textView_ButtonAddToCart",
+    "type" : "id"
+  },
+  "Basket_button":
+  {
+    "value": "//android.widget.TextView[@resource-id=\"com.solidict.ebebek:id/navigation_bar_item_small_label_view\" and @text=\"Sepetim\"]",
+    "type" : "xpath"
+  },
+
+  "Basket_product_plus_button":
+  {
+    "value": "com.solidict.ebebek:id/lytPlusQuantity",
+    "type" : "id"
+  },
+  "Basket_product_price":
+  {
+    "value": "com.solidict.ebebek:id/textView_CartProduct_Price",
+    "type" : "id"
+  }
+
+}
+
+
+

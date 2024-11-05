@@ -1,0 +1,21 @@
+{
+  "SPLASH_SCREEN_BASLA_BUTTON": {
+    "value": "Başla",
+    "type": "AccessibilityId"
+  },
+  "SPLASH_SCREEN_ATLA_BUTTON": {
+    "value": "Atla",
+    "type": "AccessibilityId"
+  },
+  "PERMISSION_LOCATION_WHILE_USING_THE_APP": {
+    "value": "com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+    "type": "id"
+  },
+  "ATLE_BUTTON": {
+    "value": "com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+    "type": "id"
+  }
+}
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebebek IOS Version Test Suite" verbose="1" parallel="tests"
+       thread-count="3">
+    <listeners>
+        <listener class-name="com.Ebebek.listener.ExecutionListener"/>
+        <listener class-name="com.Ebebek.listener.TestListener"/>
+        <listener class-name="com.Ebebek.listener.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="iPhone 11 - v16">
+        <parameter name="version" value="16" />
+        <parameter name="platform" value="ios" />
+        <parameter name="device" value="iPhone 14" />
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+    <test name="iPhone 13 - v15">
+        <parameter name="version" value="15" />
+        <parameter name="platform" value="ios" />
+        <parameter name="device" value="iPhone 13" />
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+    <test name="iPhone 12 Pro - v14">
+        <parameter name="version" value="14" />
+        <parameter name="platform" value="ios" />
+        <parameter name="device" value="iPhone 12 Pro" />
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+</suite>

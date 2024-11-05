@@ -1,0 +1,29 @@
+{
+  "LANGUAGE_TURKCE": {
+    "value": "Türkçe",
+    "type": "AccessibilityId"
+  },
+  "ULKE_KODU_TR": {
+    "value": "Ülke Kodu\n+90",
+    "type": "AccessibilityId"
+  },
+  "TELEFON_NO_INPUT": {
+    "value": "android.widget.EditText",
+    "type": "className"
+  },
+  "OTP_INPUT": {
+    "value": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[5]",
+    "type": "xpath"
+  },
+  "OTP_KODU_TEKRAR_GONDER": {
+    "value": "Kodu Tekrar Gönder",
+    "type": "AccessibilityId"
+  },
+  "REGISTER_BACK_BUTTON": {
+    "value": "android.widget.ImageView",
+    "type": "className"
+  }
+}
+
+
+

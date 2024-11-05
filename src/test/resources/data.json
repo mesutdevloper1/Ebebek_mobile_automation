@@ -1,0 +1,22 @@
+{
+  "activity": {
+    "main_android": "io.threepounds.qpoint",
+    "main_ios": ""
+  },
+  "appUrl": {
+    "Ebebek_android": "",
+    "Ebebek_ios": ""
+  },
+  "apk": {
+    "Ebebek_android": "app-release-202305041251-Ebebek-DEV.apk",
+    "Ebebek_ios": "Ebebek_20230517.ipa"
+  },
+  "lambda": {
+    "userName": "",
+    "accessKey": ""
+  },
+  "userData": {
+    "emailAdmin": "mesutn@.com",
+    "passwordAdmin": "12051205Eo-"
+  }
+}

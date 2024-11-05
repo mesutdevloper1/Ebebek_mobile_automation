@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ebebek Android Version Test Suite" verbose="1" parallel="tests"
+       thread-count="3">
+    <listeners>
+        <listener class-name="com.Ebebek.listener.ExecutionListener"/>
+        <listener class-name="com.Ebebek.listener.TestListener"/>
+        <listener class-name="com.Ebebek.listener.AnnotationTransformer"/>
+    </listeners>
+    <test name="Galaxy S10 - v13">
+        <parameter name="deviceName" value="Galaxy S23"/>
+        <parameter name="platformVersion" value="13"/>
+        <parameter name="platformName" value="android"/>
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+    <test name="Galaxy S10 - v12">
+        <parameter name="deviceName" value="Galaxy S10"/>
+        <parameter name="platformVersion" value="12"/>
+        <parameter name="platformName" value="android"/>
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+    <test name="Galaxy S10 - v11">
+        <parameter name="deviceName" value="Galaxy S10"/>
+        <parameter name="platformVersion" value="11"/>
+        <parameter name="platformName" value="android"/>
+        <classes>
+            <class name="io.cucumber.skeleton.RunCucumberTest"/>
+        </classes>
+    </test>
+</suite>
